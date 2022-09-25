@@ -1,0 +1,41 @@
+header {
+	background-color: rgba(247, 248, 249, 1);
+	padding: .4rem 0 0;
+}
+header img.logo {
+	height:44px;
+}
+a.navbar-item:hover {
+	color:rgba(221, 72, 20, .8);
+}
+section a {
+	color:#459329;
+	text-decoration: underline;
+}
+section {
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 2.5rem 1.75rem 3.5rem 1.75rem;
+}
+footer {
+	background-color: rgba(221, 72, 20, .8);
+	text-align: center;
+}
+footer .environment {
+	color: rgba(255, 255, 255, 1);
+	padding: 2rem 1.75rem;
+}
+footer .copyrights {
+	background-color: rgba(62, 62, 62, 1);
+	color: rgba(200, 200, 200, 1);
+	padding: .25rem 1.75rem;
+}
+th {
+	color:#614BBB !important;
+}
+code {
+	display:block;
+}
+.powered a {
+	text-decoration: none;
+}

@@ -1,0 +1,16 @@
+{
+    "builds": [
+        { "src": "/api/index.php", "use": "vercel-php@0.3.1" },
+        { "src": "/public/**", "use": "@vercel/static" }
+    ],
+    "rewrites": [
+        {
+            "source": "/(css|js|images)/(.*)",
+            "destination": "public/$1/$2"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/api/index.php"
+        }
+    ]
+}
